@@ -1,0 +1,24 @@
+import random
+n=random.randint(1,100)
+print ("\tguess the number\n ")
+print("\tyou have 4 chances")
+x=1
+while(x<4):
+	guess=int(input("guess the number:"))
+	if guess==n:
+		print("you won")
+		break
+	elif x==4:
+		print("\tyour chances are over")
+		print("\t\tTRY AGAIN")
+		break
+	elif guess<n:
+		print("your guess is low")
+		x+=1
+	elif guess>n:
+		print("your is guess is high")
+	   x+=1
+	
+	    
+	    
+	    
