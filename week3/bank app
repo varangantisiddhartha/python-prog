@@ -1,0 +1,26 @@
+def credit(Amount,value):
+    Amount +=value
+    print(Amount)
+    return Amount
+
+def debit(Amount,value):
+    Amount=Amount-value
+    print(Amount)
+    return Amount
+
+def showbalance(Amount):
+    print("balance amount in your account:",Amount)
+    
+
+        
+        
+        
+        
+        
+        
+        
+        
+Amount =0
+Amount=credit(Amount,500)
+Amount=debit(Amount,150)
+showbalance(Amount)
