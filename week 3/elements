@@ -1,0 +1,9 @@
+elements=[]
+limit=int(input("Enter limit for list:"))
+for i in range(limit):
+	val=int(input("enter value:"))
+	elements.append(val)
+	
+for i in elements:
+	print(i,end=' ')
+	
