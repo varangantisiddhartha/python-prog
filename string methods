@@ -1,0 +1,32 @@
+text = "Hello World"
+print(text.lower())
+
+
+text = "Hello World"
+print(text.upper()) 
+
+
+text = "   Hello World   "
+print(text.strip()) 
+
+
+text = "apple,banana,cherry"
+print(text.split(","))
+
+
+text = "Hello World"
+print(text.replace("World", "Python")) 
+
+
+text = "Hello World"
+print(text.find("World"))  
+print(text.find("Python"))
+
+
+my_string = "Hello, World!"
+print(my_string.lower()) 
+print(my_string.upper()) 
+print(my_string.strip())  
+print(my_string.split(','))
+print(my_string.replace('Hello', 'Hi'))
+print(my_string.find('World'))
