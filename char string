@@ -1,0 +1,3 @@
+my_string="HELLO WORLD!"
+print(my_string[0])
+print(my_string[6])
