@@ -1,0 +1,61 @@
+r=int(input("enter the size:"))
+col=int(input("enter the size:"))
+mat=[]
+for i in range(r):
+    row=[]
+    for j in range(col):
+        n=int(input(f"enter the element in mat{[i]}{[j]} : "))
+        row.append(n)
+    mat.append(row)
+print(mat)
+
+matrix2=[]
+print("enter the matrix2")
+
+for i in range(r):
+    row=[]
+    for j in range(col):
+        n=int(input(f"enter the element in matrix{[i]}{[j]} : "))
+        row.append(n)
+    matrix2.append(row)
+print(matrix2)
+ans=[]
+print("it is addition matrix")
+for i in range(r):
+    row=[]
+    for j in range(col):
+        row.append(mat[i][j]+matrix2[i][j])
+    ans.append(row)
+print(ans)
+ans=[]
+print("it is subtraction matrix")
+for i in range(r):
+    row=[]
+    for j in range(col):
+        row.append(mat[i][j]-matrix2[i][j])
+    ans.append(row)
+print(ans)
+
+
+multi=[]
+print("it is mutiplication matrix")
+for i in range(r):
+    row=[]
+    for j in range(col):
+        temp=0
+        for k in range(r):
+            temp += mat[i][k] * matrix2[k][j]
+        row.append(temp)
+    multi.append(row)
+print(multi)
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
